@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>prefixfree</artifactId>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>b44a065-SNAPSHOT</version>
     <name>PrefixFree</name>
     <description>WebJar for PrefixFree</description>
     <url>http://webjars.org</url>
@@ -41,7 +41,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.0.7</upstream.version>
+        <upstream.version>b44a065</upstream.version>
         <!-- Waiting for Lea to tag the repository: https://github.com/LeaVerou/prefixfree/issues/45 -->
         <upstream.url>https://raw.github.com/LeaVerou/prefixfree/b44a065d048a3c218970f23118010446206ca4d9/</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
