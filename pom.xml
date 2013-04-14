@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>prefixfree</artifactId>
-    <version>b44a065</version>
+    <version>1.1-SNAPSHOT</version>
     <name>PrefixFree</name>
     <description>WebJar for PrefixFree</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/prefixfree</url>
         <connection>scm:git:https://github.com/webjars/prefixfree.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/prefixfree.git</developerConnection>
-        <tag>prefixfree-b44a065</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
