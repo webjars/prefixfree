@@ -55,7 +55,7 @@
                 <version>1.0-beta-4</version>
                 <executions>
                     <execution>
-                        <id>download-development-js</id>
+                        <id>download-prefixfree-js</id>
                         <phase>process-resources</phase>
                         <goals>
                             <goal>download-single</goal>
@@ -67,7 +67,7 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>download-min-js</id>
+                        <id>download-prefixfree-min-js</id>
                         <phase>process-resources</phase>
                         <goals>
                             <goal>download-single</goal>
@@ -75,6 +75,66 @@
                         <configuration>
                             <url>${upstream.url}</url>
                             <fromFile>prefixfree.min.js</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-dynamic-dom-js</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>plugins/prefixfree.dynamic-dom.js</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-dynamic-dom-min-js</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>plugins/prefixfree.dynamic-dom.min.js</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-jquery-js</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>plugins/prefixfree.jquery.js</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-viewport-units-js</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>plugins/prefixfree.viewport-units.js</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-vars-js</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>plugins/prefixfree.vars.js</fromFile>
                             <toDir>${destDir}</toDir>
                         </configuration>
                     </execution>
